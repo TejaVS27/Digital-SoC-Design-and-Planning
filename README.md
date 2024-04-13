@@ -8,3 +8,6 @@
 ![Screenshot 2024-04-13 125958](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/ec45ad47-6a44-4985-950e-4a2ea138e276)
 ![Screenshot 2024-04-13 130052](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/ecede95b-dc4f-48a5-9748-30678ec8384e)
 
+![Screenshot 2024-04-13 130721](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/f2a1e20c-3478-469b-8096-305bab89319d)
+![Screenshot 2024-04-13 130838](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/07fc14cd-5e71-4cb5-80b3-89f773502251)
+![Screenshot 2024-04-13 131247](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/7e6e52a1-81ba-4ae7-ab73-5e381dd1099c)
