@@ -54,7 +54,7 @@ run_synthesis
 ![Screenshot 2024-04-13 131247](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/c076780c-00c6-40ff-8ec2-8d90ea827b8b)
 
 #### Generated files
-Gate levele netlist file is generated after synthesis, can be found in the results/synthesis folder  
+Gate level netlist file is generated after synthesis, can be found in the results/synthesis folder  
 pwd: openlane/designs/picorv32a/runs/13-04_07-35/results/synthesis  
 ```bash
 $ gedit picorv32a.synthesis.v
@@ -62,7 +62,7 @@ $ gedit picorv32a.synthesis.v
 run the above command to view the GLN file in text editor.
 
 Apart from this file, few reports are also generated and can be found in the reports/synthesis directory.  
-Area report (with no. of different cells), Timing repor (with min path and max path slack), Lint report etc.
+Area report (with no. of different cells), Timing report (with min path and max path slack), Lint report etc.
 
 ![Screenshot 2024-04-13 131940](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/a1369a1f-c1ea-4eda-a7a5-abc1ab803d05)
 
