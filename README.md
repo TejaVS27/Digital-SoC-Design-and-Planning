@@ -70,8 +70,8 @@ Area report (with no. of different cells), Timing report (with min path and max 
 
 Flop ratio = no. of dff / no. of cells = 1613 / 14876 = 10.84%
 
-## Day-2: Floorplanning
-
+## Day-2: Floorplanning and placement  
+### Floorplan
 Use `run_floorplan` command to run floorplan after completing the synthesis.
 
 ![Screenshot 2024-04-21 162313](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/daff124a-1d56-4469-be52-3957f0d74773)
@@ -97,4 +97,28 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 we can select any pin or an instance and give a `% what` command in Tkcon.tcl tab to view its details.
 
 ![Screenshot 2024-04-21 171152](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/55db2e2a-5fc2-458d-9677-95d39b45bc0a)
+
+### Placement
+
+Use `run_floorplan` command to run placement after completing the floorplan.
+
+![Screenshot 2024-04-21 220724](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/c682b268-6f7b-4848-ac76-049ef75537c6)
+
+Both Global and Detailed placement was completed, To view placement generated files go to following path  
+
+pwd: openlane/designs/picorv32a/runs/21-04_10-36/results/placement  
+
+we can see the generated .def file  
+
+To view the Layout after floorplan, we use `Magic` tool through following command in the results/placement directory  
+
+```bash
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
+```
+
+![Screenshot 2024-04-21 221842](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/494a6b59-4631-4d92-8b29-d00f2de44ebe)  
+
+![Screenshot 2024-04-21 222125](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/63567bdc-f032-44af-9e13-09c4b5b61964)
+
+
 
