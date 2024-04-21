@@ -70,4 +70,31 @@ Area report (with no. of different cells), Timing report (with min path and max 
 
 Flop ratio = no. of dff / no. of cells = 1613 / 14876 = 10.84%
 
+## Day-2: Floorplanning
+
+Use `run_floorplan` command to run floorplan after completing the synthesis.
+
+![Screenshot 2024-04-21 162313](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/daff124a-1d56-4469-be52-3957f0d74773)
+![Screenshot 2024-04-21 162922](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/8d224da1-759b-43c0-a281-0ad1cf1053d2)
+
+Note: Synthesis was done again before floorplan to create synthesis files in `21-04_10-36` directory in runs directory.  
+
+To view the floorplan generated files goto following path:  
+pwd: openlane/designs/picorv32a/runs/21-04_10-36/results/floorplan  
+  
+we can see the generated .def file
+
+![Screenshot 2024-04-21 164405](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/ff8255bf-9011-41ba-bbd1-f8fe73d6a877)
+
+To view the Layout after floorplan, we use `Magic` tool through following command in the results/floorplan directory  
+
+```bash
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def
+```
+
+![Screenshot 2024-04-21 170903](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/5829e4b2-2639-4d16-ac38-3ae92ecd443a)
+
+we can select any pin or an instance and give a `% what` command in Tkcon.tcl tab to view its details.
+
+![Screenshot 2024-04-21 171152](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/55db2e2a-5fc2-458d-9677-95d39b45bc0a)
 
