@@ -1,4 +1,4 @@
-# RISC V-SoC-Physical-Design
+# Digital-SoC-Design-and-Planning
 This project aims to implement a RISC-V SoC design from RTL to GDSII using open-source EDA tools.
 > 1. OpenLANE : Open source automated ASIC Flow tool from synthesis to GDSII
 > 2. Sky130 PDK : Open source process design kit from SkyWater Technology based on 130nm CMOS technology.
