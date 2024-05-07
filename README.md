@@ -128,7 +128,7 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 ![Screenshot 2024-05-06 233133](https://github.com/TejaVS27/Digital-SoC-Design-and-Planning/assets/124818692/30b7858e-1ed2-47fa-a8cd-48605d8138bc)
 
-Rise transition : 2.23963e-09 - 2.1803e-09 = 0.05933e-09
-Fall transistion : 4.09319e-09 - 4.05067e-09 = 0.04252e-09
-Rise delay : 2.212e-09 - 2.152e-09 = 0.06e-09
-Fall delay : 4.05075e-09 - 4.05e-09 = 0.00075e-09
+Rise transition : 2.23963e-09 - 2.1803e-09 = 0.05933e-09  
+Fall transistion : 4.09319e-09 - 4.05067e-09 = 0.04252e-09  
+Rise delay : 2.212e-09 - 2.152e-09 = 0.06e-09  
+Fall delay : 4.05075e-09 - 4.05e-09 = 0.00075e-09  
