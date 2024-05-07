@@ -120,5 +120,15 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 ![Screenshot 2024-04-21 222125](https://github.com/TejaVS27/RISCV-SoC-Design/assets/124818692/63567bdc-f032-44af-9e13-09c4b5b61964)
 
+## Day-3: Inverter library cell design and characterization:
 
+![Screenshot 2024-04-22 224621](https://github.com/TejaVS27/Digital-SoC-Design-and-Planning/assets/124818692/8a1eef13-cb80-49c4-a19d-f7cdd532b049)
 
+![Screenshot 2024-05-06 233059](https://github.com/TejaVS27/Digital-SoC-Design-and-Planning/assets/124818692/42e385a3-951d-4811-b050-ff8d42d37e44)
+
+![Screenshot 2024-05-06 233133](https://github.com/TejaVS27/Digital-SoC-Design-and-Planning/assets/124818692/30b7858e-1ed2-47fa-a8cd-48605d8138bc)
+
+Rise transition : 2.23963e-09 - 2.1803e-09 = 0.05933e-09
+Fall transistion : 4.09319e-09 - 4.05067e-09 = 0.04252e-09
+Rise delay : 2.212e-09 - 2.152e-09 = 0.06e-09
+Fall delay : 4.05075e-09 - 4.05e-09 = 0.00075e-09
